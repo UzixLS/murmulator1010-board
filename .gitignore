@@ -1,0 +1,16 @@
+## Kicad
+pcb*/**/*-lib-table
+pcb*/**/*-cache
+pcb*/**/*-rescue.lib
+pcb*/**/*.kicad_sch-bak
+pcb*/**/*.kicad_pcb-bak
+pcb*/**/*.kicad_prl
+pcb*/**/*.lck
+pcb*/**/*.dcm
+pcb*/**/*.xml
+pcb*/**/*-backups/
+pcb*/**/out/
+pcb*/rev*~*/
+
+## Etc.
+refs/
