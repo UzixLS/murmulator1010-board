@@ -38219,6 +38219,7 @@
 		(lib_name "Jumper_2_Open_1")
 		(lib_id "Jumper:Jumper_2_Open")
 		(at 97.79 269.24 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38238,7 +38239,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 96.5201 270.51 90)
+			(at 99.0599 270.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
