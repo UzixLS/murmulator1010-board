@@ -1,30 +1,35 @@
 ## Murmulator.1010
-10×10 cm, 2-layer DIY computer PCB based on the Raspberry RP2350 MCU
+10×10 cm, 2-layer DIY computer PCB based on the Raspberry Pi RP2350 MCU
 
 [![photo](images/thumb.rev.A.front.webp)](images/rev.A.front.webp)
 [![photo](images/thumb.rev.A.back.webp)](images/rev.A.back.webp)
 
+[![photo](images/thumb.rev.A.top.webp)](images/rev.A.top.webp)
+[![photo](images/thumb.rev.A.side.webp)](images/rev.A.side.webp)
+
 Technical specs:
 - Compatible with the [Murmulator](https://murmulator.ru/) [M2P2](https://murmulator.ru/nextgen)
-and [Frank PGA](https://frank.rh1.tech/ru-ru/hardware/frank-pga) projects
-- HDMI and VGA video outputs; CVBS (composite) output via a 3.5 mm jack
-- PWM and I2S (with TDA1387T DAC) audio output through an LMV358 op-amp
+  and [Frank PGA](https://frank.rh1.tech/ru-ru/hardware/frank-pga) projects
+- HDMI and VGA video outputs
+- CVBS composite video + audio output via 3.5mm jack connector
+- PWM and I2S (TDA1387T DAC) audio output with LMV358 opamp
 - Combined PS/2 keyboard and mouse port
-- Two DB-9 ports for Famicom (NES)-compatible joysticks
-- Two external USB ports and two internal USB connectors via an MW7211A hub
-- USB Type-C power input
+- Two DB-9 ports for Famicom (Dendy)-compatible joysticks
+- Two external USB-host ports and two internal connectors via an MW7211A hub
+- USB Type-C power supply and programming
 - RP2350B MCU in a QFN-80 package
+- 16MB SPI flash (W25Q128)
 - Two PSRAM chips: SPI + QSPI
-- DS3231MZ RTC
-- ESP8266 WiFi
+- RTC (DS3231MZ) with battery
+- ESP8266 WiFi module (ESP-01 or ESP-12E/F)
 - SD/microSD card slot
 - Tape input via a second 3.5 mm jack
-- ESD protection for PS/2, joystick, and Type-C ports
+- ESD protection for PS/2, joystick, and USB Type-C ports
 - 5V level shifters for PS/2 and joystick ports
 - Board optimized for G738 and G706 cases
 
 
-### MCU Pinout
+### MCU pinout
 | GPIO | Function |
 | ---- | -------- |
 | GP0  | PS/2 mouse clock |
@@ -75,3 +80,9 @@ and [Frank PGA](https://frank.rh1.tech/ru-ru/hardware/frank-pga) projects
 | GP45 | — |
 | GP46 | Test point TP7 |
 | GP47 | QSPI PSRAM select |
+
+
+### References
+* Murmulator official site: [link](https://murmulator.ru/)
+* Murmulator 2 pinout and firmware: [link](https://murmulator.ru/nextgen)
+* Frank PGA: [link](https://frank.rh1.tech/ru-ru/hardware/frank-pga)
