@@ -29,6 +29,13 @@ Technical specs:
 - Board optimized for G738 and G706 cases
 
 
+### Navigation
+[release/pcb.rev.A1.pdf](https://uzixls.github.io/murmulator1010-board/release/pcb.rev.A1.pdf) - schematic, BOM and 3d renders  
+[release/pcb.rev.A1.bom_interactive.html](https://uzixls.github.io/murmulator1010-board/release/pcb.rev.A1.bom_interactive.html) - interactive BOM  
+[release/pcb.rev.A1.gerber.zip](https://uzixls.github.io/murmulator1010-board/release/pcb.rev.A1.gerber.zip) - gerber files  
+[release/pcb_covers.rev.A1.gerber.zip](https://uzixls.github.io/murmulator1010-board/release/pcb_covers.rev.A1.gerber.zip) - gerber files for covers  
+
+
 ### Changelog
 #### Main PCB
 * Rev.A - initial release
