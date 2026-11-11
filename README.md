@@ -29,6 +29,20 @@ Technical specs:
 - Board optimized for G738 and G706 cases
 
 
+### Changelog
+#### Main PCB
+* Rev.A - initial release
+* Rev.A1:
+    - U6 marked as DNP
+    - Minor silkscreen improvements
+
+#### Covers PCB
+* Rev.A - initial release
+* Rev.A1:
+    - HDMI and USB cutouts moved down by 0.25mm
+    - PS/2 cutout moved up by 0.25mm
+
+
 ### MCU pinout
 | GPIO | Function |
 | ---- | -------- |
